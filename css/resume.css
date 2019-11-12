@@ -198,8 +198,3 @@ a:focus,
 a:active {
   color: #824027;
 }
-
-cardImg {
-  max-height: 300px;
-  max-width: 400px;
-}
