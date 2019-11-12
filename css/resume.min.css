@@ -175,7 +175,7 @@ a:hover {
   color: #824027;
 }
 
-cardImg {
+.cardImg {
   max-height: 300px;
   max-width: 400px;
 }
