@@ -42,7 +42,7 @@
         <span class="d-none d-lg-block">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="img/evan.png"
+            src="img/evan.jpg"
             alt="Evan"
           />
         </span>
@@ -192,16 +192,16 @@
           <h2 class="mb-5">Projects</h2>
           <ul class="fa-ul mb-0">
             <div class="row card-group" style="padding: 10px">
-              <!-- First Project Card -->
+              <!-- First Project Card - Ezra Net -->
               <div class="card" style="padding: 10px">
-              <img class="card-img-top cardImg" src="./ezra1.jpg" alt="Ezra-Net" />
+              <img class="card-img-top cardImg" src="./img/ezra1.jpg" alt="Ezra-Net" />
                 <div class="card-body">
                   <h5 class="card-title">Ezra-Net</h5>
                   <p class="card-text">
                     Fully featured social media website including login,
                     friends, statuses, messages, and comments. Front end built
                     using JavaScript, React, and Redux. Back end built as a
-                    RESTful API using Node JS, Express, and Mongo DB.
+                    RESTful API using Node JS, Express, and PostgreSQL.
                   </p>
                   <button
                     type="button"
@@ -213,7 +213,7 @@
                   </button>
                 </div>
               </div>
-              <!-- First Project Modal -->
+              <!-- First Project Modal - Ezra Net -->
               <div
                 class="modal fade bd-example-modal-lg-1"
                 tabindex="-1"
@@ -223,6 +223,11 @@
               >
               <div class="modal-dialog modal-xl" role="document">
                   <div class="modal-content">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">
+                            <i class="fas fa-times"></i>
+                          </span>
+                        </button>
                     <div class="modal-body text-center">
                       <div class="container">
                         <div class="row justify-content-center">
@@ -238,11 +243,15 @@
                               <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image -->
-                            <img class="img-fluid rounded mb-5" src="./ezra2.jpg" alt="Ezra Net Screenshot">
+                            <img class="img-fluid rounded mb-5" src="./img/ezra2.jpg" alt="Ezra Net Screenshot">
                             <!-- Portfolio Modal - Text -->
                             <p class="mb-5" style="justify-content: left">
-                                <p><h4>Project Overview:</h4> Ezra-Net is a fully featured social media website including the following features: Login landing page to authenticate the user, Dashboard which shows the user’s news feed including status updates from the user’s friends, Conversations page which shows conversations and messages with the ability to send new messages and create new conversations, Friends page which shows the user’s list of friends with the ability to add and delete friends, and finally a  User Profile page which shows the individual user’s profile including status updates and comments</p>
-                                <p><h4>What I Learned:</h4>This was the most ambitious project I have completed to date. Building the front end showed me how a wide variety of content and functionpty can be generated through array methods returning react components. Building the back end was a great example of creating a RESTful API and customizing it in order to simplify the code on the front end.</p>
+                                <p><h4>Project Overview:</h4> 
+                                  Fully featured full stack social media website including authentication, friend requests, statuses, messages, and comments. All items have full CRUD functionality and search, filter, and sort. Built responsive UI with full functionality including fetching data from API and displaying data on page with modern design. Back end designed with RESTful API accessing relational database.</p>
+                                <p><h4>What I Learned:</h4>This was the most ambitious project I have completed to date. 
+                                  Building the front end showed me how a wide variety of content and functionpty can be generated 
+                                  through array methods returning react components. Building the back end was a great example of 
+                                  creating a RESTful API and customizing it in order to simplify the code on the front end.</p>
                                 <p><h4>Technologies Used:</h4></p>
                                 <div class="row">
                                     <div class="col">
@@ -252,37 +261,38 @@
                                         <p>Semantic UI</p>
                                         <p>React</p>
                                         <p>Redux</p>
+                                        <p>Axios</p>
                                     </div>
                                     <div class="col">
-                                      <p>Axios</p>
+                                      <p>Knex</p>
                                       <p>Node.JS</p>
                                       <p>Express</p>
-                                      <p>MongoDB</p>
+                                      <p>PostgreSQL</p>
                                       <p>VS Code</p>
+                                      <p>Postman</p>
+                                      <p>Postico</p>
                                     </div>
-                                </div>      
+                                </div>     
                           </p>
                           </div>
-                        </div>
+                        </div> 
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- Second Project Card -->
+              <!-- Second Project Card - USAA Mortgage Calculator -->
               <div class="card" style="padding: 10px">
                 <img
                   class="card-img-top cardImg"
-                  src="./sleezys1.jpg"
-                  alt="Card image cap"
+                  src="./img/mort1.jpg"
+                  alt="Screenshot of mortgage calculator
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Sleezy's Used Cars</h5>
+                  <h5 class="card-title">USAA Mortgage Date Calculator</h5>
                   <p class="card-text">
-                    Car dealership website that pulls data from an existing API
-                    including dealership locations and vehicles in inventory. I
-                    built the front end pulling data from an existing API. Full
-                    CRUD functionality on both the locations and vehicles.
+                      Lightweight and responsive web application with USAA branded design. Functionality 
+                      includes calculating various dates for the mortgage underwriting process.
                   </p>
                   <button
                     type="button"
@@ -319,10 +329,10 @@
                               <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image -->
-                            <img class="img-fluid rounded mb-5" src="./sleezys2.jpg" alt="Sleezys Screenshot">
+                            <img class="img-fluid rounded mb-5" src="./img/mort2.jpg" alt="Screenshot of mortgage calculator">
                             <!-- Portfolio Modal - Text -->
                             <p class="mb-5" style="justify-content: left">
-                                <p><h4>Project Overview:</h4> Sleezy’s Used Cars is a car dealership website that allows the user to view the inventory of cars and dealership locations of Sleezy’s Used Cars. Both vehicles and locations have full CRUD functionality, and the project was built using conditional rendering to allow for efficient code. This showed me that a dynamic and functional application can be built as a single page application. I am very proud of the design of this application and feel like I am now very comfortable working with Semantic UI to make a beautiful user interface</p>
+                                <p><h4>Project Overview:</h4> The USAA Mortgage Date Calculator is a lightweight and responsive web application with USAA branded design. Functionality includes calculating various dates for the mortgage underwriting process.</p>
                                 <p><h4>What I Learned:</h4>I worked with an existing API on this project which allowed me to practice with Axios requests and using array methods to map and filter the data to exactly what I needed for the application. I continued to refine my skills in React and Redux and feel that the code I wrote was more efficient and concise than previous projects. My main point of pride on this application is the design. I very much grew my skills in Semantic UI and web design with this project.</p>
                                 <p><h4>Technologies Used:</h4></p>
                                 <div class="row">
